@@ -1,0 +1,9 @@
+---
+spring.config.activate.on-profile: dev
+spring.config.import:
+  - classpath:config/foo/dev.yml
+---
+spring.config.activate.on-profile: prod
+spring.config.import:
+  - classpath:config/foo/prod.yml
+---
